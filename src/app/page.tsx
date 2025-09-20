@@ -7,12 +7,9 @@ import {
   Brain,
   BrainCircuitIcon,
   FileSlidersIcon,
-  FileText,
-  Search,
   SpeechIcon,
 } from "lucide-react"
 import Link from "next/link"
-import Image from "next/image"
 import { Suspense } from "react"
 import { UserAvatar } from "@/features/users/components/UserAvatar"
 import { PricingTable } from "@/services/clerk/components/PricingTable"
@@ -434,7 +431,7 @@ function Stats() {
             <span className="text-primary">faster and better</span>
           </h3>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Don't just take our word for it. See how Prepwise AI users
+            Don&apos;t just take our word for it. See how Prepwise AI users
             consistently outperform the competition in every metric that
             matters.
           </p>
@@ -546,7 +543,7 @@ function Testimonials() {
             <span className="text-primary">real users</span>
           </h3>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
-            Join thousands of professionals who've accelerated their
+            Join thousands of professionals who&apos;ve accelerated their
             careers with Prepwise AI
           </p>
         </div>
